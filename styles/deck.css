@@ -1,0 +1,197 @@
+body
+{
+	background-color: gray;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+button
+{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+	background-color: gray;
+	color: whitesmoke;
+    border: thin solid rgb(180, 180, 180);
+    font-size: 1.1em;
+}
+
+#standard-deck
+{
+	width: 1420px;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+	min-height: 800px;
+}
+
+#standard-deck:hover .card_front
+{
+	background-color: rgb(255, 240, 240);
+}
+
+#info_cont, #deck_cont, #discard_cont
+{
+  	position: relative;
+}
+
+#info_div
+{
+	background-color: whitesmoke;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#deck_div
+{
+  	min-height: 400px;
+  	width: 540px;
+  	float: left;
+  	margin: 0px 1em;
+  	position: relative;
+}
+
+#discard_div
+{
+	width: auto;
+	float: left;
+}
+
+.suit_container
+{
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.suit_container:last-child
+{
+	right:10px;
+	bottom: 10px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.card_container
+{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 320px;
+	cursor: pointer;
+	position: relative;
+}
+
+.card_front, .card_back
+{
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	border: thin solid rgb(180, 180, 180);
+	border-radius: 10px;
+	padding: 20px;
+	width: 180px;
+	height: 300px;
+	background-color: white;
+	text-align: center;
+	line-height: 1.5em
+}
+
+.card_front
+{
+	z-index: 2;
+	transform: rotateY(0deg);
+	background-position: -86px -69px;
+}
+
+.card_back
+{
+	transform: rotateY(180deg);
+	background-position: -915px -867px;
+}
+
+.back_val img
+{
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.back_val a
+{
+	border: thin solid rgb(180, 180, 180);
+	display: block;
+    padding: 10px;
+}
+
+.card_category, .cat_val
+{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    font-size: .8em;
+    letter-spacing: 0.5px;
+}
+
+.stacked_card
+{
+	position: absolute;
+}
+
+.holder_container
+{
+	position: relative;
+	height: 330px;
+	width: 230px;
+}
+
+.holder_label
+{
+	padding: 1em;
+	color: white;
+}
+
+.holder_target
+{
+	border: dotted medium white;
+    height: 345px;
+    width: 225px;
+    position: absolute;
+    top: 0px;
+}
+
+.holder_drop
+{
+	position: absolute;
+	z-index: -1;
+}
+
+.holder_drop .card_container
+{
+    position: absolute;
+}
+
+.row
+{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 320px;
+}
+
+.row.zone
+{
+	margin-bottom: 2em;
+    padding: 1em;
+}

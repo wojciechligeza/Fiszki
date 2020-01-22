@@ -1,0 +1,52 @@
+var cards = [
+  {
+    "question": "<h3>Jak nazywały się bloki państwa, które walczyły przeciwko sobie w I wojnie światowej?</h3>",
+    "answer": "<p>Ententy i centralne.</p>",
+    "category": "Historia"
+  },
+  {
+    "question": "<h3>W którym roku do I wojny światowej włączyły się Stany Zjednoczone?",
+    "answer": "<p>1917</p>",
+    "category": "Historia"
+  },
+  {
+    "question": "<h3>Kiedy rozegrała się bitwa o Anglię?</h3>",
+    "answer": "<p>8 sierpnia - 6 października 1940</p>",
+    "category": "Historia"
+  },
+  {
+    "question": "<h3>Które ciała niebieskie mają największy wpływ na funkcjonowanie systemu przyrodniczego Ziemi?</h3>",
+    "answer": "<p>Księżyc i Słońce.</p>",
+    "category": "Kosmos"
+  },
+  {
+    "question": "<h3>Jak nazywamy strumień cząstek elementarnych docierających do Ziemi z przestrzeni kosmicznej?</h3>",
+    "answer": "<p>Promieniowanie kosmiczne.</p>",
+    "category": "Kosmos"
+  },
+  {
+    "question": "<h3>Wiatr słoneczny to: </h3>",
+    "answer": "Strumień naładowanych cząstek emitowanych przez słońce, pod wpływem których powstaje w termosferze zjawisko zorzy polarnej.",
+    "category": "Kosmos"
+  },
+  {
+    "question": "<h3>Hilozoizm to pogląd, zgodnie z którym: </h3>",
+    "answer": "Wszystkie ciała fizyczne są ożywione.",
+    "category": "Filozfia"
+  },
+  {
+    "question": "<h3>Co	to	jest	\"hoisting\"?</h3>",
+    "answer": "Mechanizm	w	języku	JavaScript,	który	polega	na	tym,	że	silnik	JS	wyszukuje	wszystkie deklaracje	zmiennych	i	funkcji	w	danej	funkcji	i	przenosi	je	na	początek.",
+    "category": "Javascript"
+  },
+  {
+    "question": "<h3>Co to jest namespacing?</h3>",
+    "answer": "Namespacing to technika pozwalająca uniknąć kolizji z innymi obiektami czyz zmiennymi w globalnej przestrzeni nazw.",
+    "category": "Javascript"
+  },
+  {
+    "question": "<h3>Czym	jest	funkcja	wywołania	zwrotnego	(„callback”)? </h3>",
+    "answer": "Funkcja	przekazywana	jako	parametr do	innej	funkcji.	Zwykle	jest	to	robione	po	to,	aby	funkcja	przyjmująca	parametr	mogła	wywołać	przekazaną	funkcję	wokreślonej	sytuacji.	Dzięki	temu	możliwe	jest	oddelegowanie	pewnych	działań	poza	funkcję.",
+    "category": "Javascript"
+  }
+]
